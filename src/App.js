@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Jenkins with me !
+          Learn Jenkins with jasser !
         </a>
       </header>
       <p>
