@@ -51,8 +51,6 @@ pipeline {
             }
             steps {
                 sh'''
-                    npm ci 
-                    npm install netlify-cli
                     node_modules/.bin/netlify --version
                     echo "Deploying into production within the site id : $NETLIFY_SITE_ID"
                     echo "Deploying into production within the site id : $NETLIFY_AUTH_TOKEN"
